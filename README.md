@@ -5,7 +5,7 @@ When a user(parent) needs a playdate for their child/children, they can use this
 ##Technologies used:
 
 ##Built by: 
-Stern Semasuka (https://github.com/stern15)
-Grace Jonn (https://github.com/GraceJonn123)
-Joseph Muli (https://github.com/josephmuli)
-Jay Kayitare (https://github.com/jmvkayitare)
+1. [Stern Semasuka](https://github.com/stern15)
+2. [Grace Jonn](https://github.com/GraceJonn123)
+3. [Joseph Muli](https://github.com/josephmuli)
+4. [Jay Kayitare](https://github.com/jmvkayitare)
