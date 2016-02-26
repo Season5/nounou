@@ -1,4 +1,12 @@
-from django.http import HttpResponse
+from django.shortcuts import render
+# from django.http import HttpResponse
 
 def index(request):
-    return HttpResponse("She says hey there world!")
+
+
+    return render(request, 'nounou/index.html')
+
+
+# def main(request):
+
+# 	return render(request, 'nounou/main.html')
