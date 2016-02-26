@@ -7,6 +7,6 @@ def index(request):
     return render(request, 'nounou/index.html')
 
 
-# def main(request):
+def main(request):
 
-# 	return render(request, 'nounou/main.html')
+	return render(request, 'nounou/main.html')
