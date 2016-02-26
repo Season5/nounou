@@ -1,6 +1,41 @@
 from __future__ import unicode_literals
-
 from django.db import models
+from django.db.models.signals import pre_save
+from django.utils import timezone
+from django.conf import settings
+
+
+# class ControlPanel(models.Model):
+
+# 	name = models.CharField(max_length=128, unique=True)
+
+# 	def __unicode__(self):
+# 		return self.name
+
+# 	def __str__(self):	#for python 3
+# 		return self.title
+
+
+
+# class Page(models.Model):
+# 	#category = models.ForeignKey(Category)
+# 	title = models.CharField(max_length=128)
+# 	url = models.URLField()
+# 	views = models.IntegerField(default=0)
+
+# 	def __unicode__(self):
+# 		return self.name
+
+# 	def __str__(self):	#for python 3
+# 		return self.title
+
+
+
+
+
+
+		
+
 
 # class Post(models.Model):
 # 	picture = forms.CharField(label='search', 

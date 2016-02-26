@@ -10,3 +10,11 @@ def index(request):
 def main(request):
 
 	return render(request, 'nounou/main.html')
+
+
+def reggy(request):
+
+	return render(request, 'nounou/register.html')
+
+
+

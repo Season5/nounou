@@ -5,7 +5,9 @@ from nounou import views
 
 
 from .views import(
+	index,
 	main,
+	reggy,
 
 	)
 
@@ -16,6 +18,7 @@ urlpatterns = patterns('',
         url(r'^$', views.index, name='index'),
         #url(r'^main/$', views.main, name='main'),
         url(r'^main/$', main),
+        url(r'^reggy/$', reggy),
         
         )
 
