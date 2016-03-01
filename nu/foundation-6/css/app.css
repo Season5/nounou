@@ -1,0 +1,31 @@
+body{
+  background-color:thistle;
+  text-align: center;
+  /*width: 70%;*/
+  /*padding-top: 10%;*/
+  color:black;
+}
+.container{
+  height: auto;
+  margin: 6%;
+  background-color: plum;
+  border-style: groove;
+  border-width: 12px;
+  width: auto;
+  border-color: white;
+}
+p{
+  margin: 5%;
+}
+.columns{
+  border-style:;
+  border-width: 5px;
+  border-color: white;
+  padding: 0;
+}
+img{
+  max-width: 10%;
+}
+.else{
+  background-image: url(img/football.jpg);
+}
