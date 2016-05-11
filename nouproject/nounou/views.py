@@ -1,10 +1,10 @@
 from django.shortcuts import render
 # from django.http import HttpResponse
 
-def index(request):
+def landing(request):
 
 
-    return render(request, 'nounou/index.html')
+    return render(request, 'nounou/landing.html')
 
 
 def main(request):
