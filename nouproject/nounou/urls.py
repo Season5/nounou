@@ -15,8 +15,7 @@ from .views import(
 
 
 urlpatterns = patterns('',
-        url(r'^$', views.index, name='index'),
-        #url(r'^main/$', views.main, name='main'),
+        url(r'^', views.index, name='index'),
         url(r'^main/$', main),
         url(r'^reggy/$', reggy),
         
